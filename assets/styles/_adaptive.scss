@@ -1,0 +1,58 @@
+@media screen and (max-width: 1448px) {
+	header {
+		nav {
+			width: 100%;
+			height: 50px;
+			padding-right: 0px;
+			ul {
+				width: 100%; display: table;
+				li {
+					font-size: 16px; line-height: 50px; padding: 0 0px 0 0px; 
+					display: table-cell; text-align: center;
+					a {
+						color: $color-black-1; text-decoration: none;
+						@include transition-all-300ms;
+						&:hover {color: $color-blue-1; text-decoration: none;}
+					}
+					a.active {color: $color-blue-1;}
+				}
+			}
+		}
+	}
+}
+@media screen and (max-width: 650px) {
+	header nav ul li {font-size: 12px;}
+}
+@media screen and (max-width: 650px) {
+	header img.logo { margin: 8px 0 8px 0px; display: block;}
+	div.number {/*float: none; width: 100%;*/ text-align: center;}
+	div.number:before {
+		display: none;
+	}
+}
+@media screen and (max-width: 520px) {
+	header img.logo {float: left; width: 140px; height: 50px;}
+	div.number {display: none;}
+	header {
+		min-height: 10px;
+		nav {
+			width: 100%;
+			height: auto;
+			padding-right: 0px;
+			ul {
+				width: 100%; display: block;
+				li {
+					font-size: 16px; height: 0px; line-height: 30px; padding: 0 0px 0 0px; 
+					display: block; text-align: center; width: 100%;
+					a {
+						color: $color-black-1; text-decoration: none;
+						@include transition-all-300ms;
+						&:hover {color: $color-blue-1; text-decoration: none;}
+					}
+					a.active {color: $color-blue-1;}
+				}
+			}
+		}
+		div.burger {display: block;}
+	}
+}
