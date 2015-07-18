@@ -92,9 +92,6 @@
   src: url("../fonts/Roboto/RobotoBold/RobotoBold.eot?#iefix") format("embedded-opentype"), url("../fonts/Roboto/RobotoBold/RobotoBold.woff") format("woff"), url("../fonts/Roboto/RobotoBold/RobotoBold.ttf") format("truetype");
   font-style: normal;
   font-weight: normal; }
-div, nav, img, ul, li {
-  outline: 1px solid red; }
-
 body {
   font-family: 'PlumbBold', PlumbBold, sans-serif;
   color: #000;
@@ -103,7 +100,12 @@ body {
 .fixed {
   position: fixed;
   margin: 0 auto;
-  width: 100%; }
+  width: 100%;
+  z-index: 9999;
+  background: #fff; }
+
+.bg-blue {
+  background-color: #c3e9e4; }
 
 /* page styles */
 header {
@@ -170,6 +172,43 @@ header {
     background: url(../img/icons/burger.png) center transparent no-repeat;
     background-size: 20px 20px;
     margin: 8px 0 8px 0px; }
+
+.block-title h4 {
+  padding: 50px 0 30px 0;
+  margin: 0;
+  font-family: "PlumbBold", PlumbBold, sans-serif;
+  font-size: 30px;
+  text-transform: uppercase;
+  text-align: center; }
+
+.about-us p {
+  font-family: "BlissProLight", BlissProLight, sans-serif;
+  font-size: 24px; }
+
+.advantages .advantages-title {
+  padding: 30px 0 30px 0; }
+  .advantages .advantages-title h3 {
+    font-family: "BlissProLight", BlissProLight, sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0;
+    padding: 0; }
+.advantages .advantages-block {
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 20px; }
+  .advantages .advantages-block img {
+    margin: 0 auto;
+    height: 102px;
+    width: auto; }
+  .advantages .advantages-block h3 {
+    font-family: "BlissProLight", BlissProLight, sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0;
+    padding: 10px 0 0px 0; }
 
 @media screen and (max-width: 1448px) {
   header nav {
