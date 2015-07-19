@@ -7,3 +7,6 @@
 <link rel="stylesheet" href="assets/styles/master.css">
 <!-- FancyBoxCSS -->
 <link rel="stylesheet" type="text/css" href="assets/frameworks/fancybox/jquery.fancybox.css?v=2.1.5" media="screen" />
+<!-- hero-slider -->
+<link rel="stylesheet" type="text/css" href="assets/frameworks/hero-slider/css/style-slider
+.css"/>
