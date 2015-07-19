@@ -92,6 +92,9 @@
   src: url("../fonts/Roboto/RobotoBold/RobotoBold.eot?#iefix") format("embedded-opentype"), url("../fonts/Roboto/RobotoBold/RobotoBold.woff") format("woff"), url("../fonts/Roboto/RobotoBold/RobotoBold.ttf") format("truetype");
   font-style: normal;
   font-weight: normal; }
+div, nav, img, ul, li, label {
+  outline: 1px solid red; }
+
 body {
   font-family: 'PlumbBold', PlumbBold, sans-serif;
   color: #000;
@@ -101,7 +104,7 @@ body {
   position: fixed;
   margin: 0 auto;
   width: 100%;
-  z-index: 9999;
+  z-index: 9;
   background: #fff; }
 
 .fixed.scrolled {
@@ -176,6 +179,93 @@ header {
     background-size: 20px 20px;
     margin: 8px 0 8px 0px; }
 
+.slider {
+  width: 100%;
+  height: 770px; }
+
+.production {
+  padding-bottom: 30px; }
+  .production .product-block {
+    padding-bottom: 20px;
+    text-align: center; }
+    .production .product-block .product-img img {
+      width: 100%;
+      height: auto; }
+    .production .product-block .product-text {
+      text-align: left;
+      font-family: "BlissPro", BlissPro, sans-serif;
+      padding: 0 10px; }
+      .production .product-block .product-text h6 {
+        color: #007db9;
+        font-size: 24px; }
+      .production .product-block .product-text p {
+        font-size: 20px;
+        line-height: 20px; }
+    .production .product-block .product-price {
+      padding-top: 10px;
+      font-family: "BlissProLight", BlissProLight, sans-serif;
+      font-size: 36px;
+      color: #333333;
+      text-align: center; }
+    .production .product-block .choise-btn {
+      width: 241px;
+      height: 52px;
+      background: url(../img/choise-btn.png) center;
+      background-size: 100% 100%;
+      display: inline-block;
+      cursor: pointer; }
+  .production .choise-complectation h6 {
+    color: #5eb4cd;
+    font-size: 30px;
+    font-family: "BlissProLight", BlissProLight, sans-serif; }
+  .production .choise-complectation input {
+    background-color: #acacac;
+    border: 0;
+    width: 20px;
+    height: 20px;
+    font-size: 30px;
+    cursor: pointer; }
+  .production .choise-complectation label {
+    width: 160px;
+    text-align: left;
+    font-family: "BlissProLight", BlissProLight, sans-serif;
+    font-size: 22px;
+    color: #acacac;
+    cursor: pointer; }
+  .production .cost h5 {
+    color: #5eb4cd;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: "BlissProMedium", BlissProMedium, sans-serif; }
+  .production .cost .cost-block {
+    font-size: 36px;
+    font-family: "BlissProLight", BlissProLight, sans-serif;
+    color: #333333; }
+  .production .cost .bid-btn {
+    width: 90%;
+    height: 52px;
+    background: url(../img/bid-btn.png) center;
+    background-size: 100% 100%;
+    display: inline-block;
+    cursor: pointer; }
+
+.gallery .col-md-3 {
+  text-align: center;
+  margin: 10px 0 10px 0; }
+.gallery .col-md-12 {
+  text-align: center; }
+.gallery img {
+  width: 90%;
+  height: auto;
+  display: inline-block; }
+.gallery .all-photo-btn {
+  width: 138px;
+  height: 98px;
+  display: inline-block;
+  background: url(../img/icons/all-photo.png) center no-repeat;
+  background-size: 80% 80%;
+  cursor: pointer; }
+
 .block-title h4 {
   padding: 50px 0 30px 0;
   margin: 0;
@@ -212,6 +302,93 @@ header {
     text-align: center;
     margin: 0;
     padding: 10px 0 0px 0; }
+
+.download {
+  text-align: center;
+  padding: 20px 0; }
+  .download .download-img {
+    width: 56px;
+    height: 52px;
+    display: inline-block;
+    cursor: pointer;
+    background: url(../img/icons/pdf.png) center no-repeat;
+    background-size: 100% 100%; }
+  .download .download-block {
+    color: #333333;
+    font-family: "BlissProExtraLight", BlissProExtraLight, sans-serif;
+    display: inline-block; }
+    .download .download-block h6 {
+      text-transform: uppercase;
+      font-size: 36px; }
+    .download .download-block p {
+      font-size: 20px; }
+
+.map {
+  width: 100%;
+  position: relative; }
+  .map .map-container {
+    width: 100%;
+    height: 500px;
+    position: absolute; }
+  .map .container {
+    height: 500px; }
+    .map .container .row {
+      height: 100%; }
+    .map .container .col-md-12 {
+      height: 100%; }
+    .map .container .contacts-block {
+      padding: 36px 20px 36px 20px;
+      display: inline-block;
+      margin-top: 110px;
+      background-color: rgba(255, 255, 255, 0.9); }
+      .map .container .contacts-block p {
+        position: relative;
+        font-family: "BlissPro", BlissPro , sans-serif;
+        font-size: 24px;
+        padding: 15px 0;
+        padding-left: 44px; }
+      .map .container .contacts-block p.phone:before {
+        content: " ";
+        width: 19px;
+        height: 33px;
+        background: url(../img/icons/contacts-phone.png) no-repeat center;
+        position: absolute;
+        left: 12px;
+        top: 18px; }
+      .map .container .contacts-block p.adress:before {
+        content: " ";
+        width: 22px;
+        height: 33px;
+        background: url(../img/icons/contacts-map.png) no-repeat center;
+        position: absolute;
+        left: 8px;
+        top: 18px; }
+      .map .container .contacts-block p.email:before {
+        content: " ";
+        width: 30px;
+        height: 33px;
+        background: url(../img/icons/contacts-email.png) no-repeat center;
+        position: absolute;
+        left: 6px;
+        top: 18px; }
+
+.footer {
+  background: #0198b3;
+  padding-top: 30px;
+  padding-bottom: 50px; }
+  .footer p {
+    text-align: right;
+    color: #cccccc;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    margin: 0 0 4px; }
+  .footer p:nth-child(1) {
+    text-transform: uppercase;
+    font-weight: 800; }
+  .footer p:nth-child(2) {
+    font-weight: 400; }
+  .footer a {
+    color: #cccccc; }
 
 @media screen and (max-width: 1448px) {
   header nav {
