@@ -24,20 +24,35 @@
 		</div>
 	</div>
 </div>
+<div class="gallery bg-blue">
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<div class="block-title">
+		<h4>Фотогалерея</h4>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3">
+				<a class="fancybox" href="1_b.jpg" data-fancybox-group="gallery" title="1-я кртинка"><img src="1_s.jpg" alt="" /></a>
+			</div>
+			<div class="col-md-3">2</div>
+			<div class="col-md-3">3</div>
+			<div class="col-md-3">4</div>
+		</div>
+	</div>
+</div>
 <div class="about-us">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-12">
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
 				<div class="block-title">
 					<h4>О нас</h4>
 				</div>

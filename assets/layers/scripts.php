@@ -4,3 +4,5 @@
 <script src="assets/frameworks/bootstrap/js/bootstrap.min.js"></script>
 <!-- My Scripts -->
 <script src="assets/scripts/js/main.js"></script>
+<!-- FancyBox JS -->
+<script type="text/javascript" src="assets/frameworks/fancybox/jquery.fancybox.js?v=2.1.5"></script>
